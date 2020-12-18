@@ -1,0 +1,278 @@
+body{
+    margin: 0;
+    padding: 0%;
+}
+.container{
+    background-color:rgb(173, 34, 173);
+    width: 100%;
+    height: 350px;
+
+}
+.container .header{
+    margin: auto;
+    width: 1200px;
+    
+}
+.container .header .first{
+    float: left;
+    width: 50%;
+    margin-top:100px;
+    line-height: 1.5;
+    font-size: 25px;
+}
+.container .header .second{
+    width: 40%;
+    float: left;
+    margin-top:120px;
+    line-height: 1.1;
+    padding-left: 5%;
+    color: rgb(189, 35, 35);
+    font-size: 20px;
+}
+.container .header .second p{
+    color: rgb(255, 255, 255);
+}
+.container .header h2{
+    border-right: 1px solid gray;
+   
+}
+.container .header h2 span:hover {
+    color: rgb(42, 197, 42);
+    cursor: pointer;
+}
+.container .header .second button {
+    width: 200px;
+    padding: 10px;
+    border-radius: 50px;
+    border:0;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.manga{
+    border-bottom: 2px solid gray;
+    margin-top: 100px;
+}
+.manga .header{
+    
+    width: 1200px;
+    margin: 0 auto;
+    height: 450px;
+   
+}
+.manga .third{
+    line-height: 2;
+    width: 50%;
+    float: left;
+    border-right:1px solid gray;
+    
+}
+.manga .third p{
+    width:90%;
+    margin-bottom: 9%;
+}
+.manga .third h2{
+    font-size: 30px;
+    font-family: tahoma;
+}
+.manga .third button{
+    width: 200px;
+    padding: 10px;
+    border-radius: 50px;
+    border:0;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    background-color: whitesmoke;
+    outline: 0;
+}
+.manga .fourth{
+    line-height: 2;
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    visibility: hidden;
+}
+.manga .fourth p{
+    font-size: 20px;
+    
+}
+.manga .fourth p i{
+    padding-right: 25px;
+}
+.phar {
+    width: 100%;
+    height: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: rgb(209, 209, 240);
+    overflow: hidden;
+}
+.phar .phar1{
+    width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+
+}
+
+.phar .phar1 img {
+    float: left;
+    width: 40%;
+    border-bottom: 2px solid gray;
+    margin-bottom: 20px;
+}
+.phar .phar1 .div11 {
+    width: 40%;
+    float: left;
+    padding-left: 100px;
+    padding-top: 40px;
+    padding-bottom: 60px;
+    line-height: 1.8;
+}
+.phar .phar1 .div1  .div11{
+    border-bottom: 2px solid gray;
+}
+.phar .phar1 .div1  .div11 button {
+    width: 100px;
+    padding: 10px;
+    border-radius: 50px;
+    border:0;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    background-color: whitesmoke;
+    outline: 0;
+}
+.phar .phar1 .div11 h2{
+    color: #777;
+    font-family: tahoma;
+    text-decoration: underline;
+}
+.phar .phar1 .div11 p{
+    color: #888;
+    font-family: tahoma;
+    line-height: 2;
+}
+.phar .phar1 .div1  .div11 button:hover{
+    background-color: #777;
+    color: white;
+}
+.clear
+{
+    clear: both;
+}
+.phar1  .btn  button{
+margin-top: 50px;
+padding: 30px;
+border-radius: 50px;
+border:0;
+font-size: 15px;
+font-weight: bold;
+text-transform: uppercase;
+cursor: pointer;
+background-color: whitesmoke;
+outline: 0;
+}
+.phar1  .btn  button:hover {
+    background-color: #777;
+    color: white;
+
+}
+
+.last
+{
+    width: 100%;
+    height: auto;
+    background-color:rgb(241, 220, 236);
+    overflow: hidden;
+    padding-bottom: 7%;
+}
+.last .cont{
+    width: 1200px;
+    margin: auto;
+    padding-top: 7%;
+}
+.last .cont .cont1{
+    width: 50%;
+    float: left;
+   
+    border-right: 2px solid gray;
+}
+.last .cont .cont1 h2{
+    color: #777;
+    font-family: tahoma;
+    text-decoration: underline;
+}
+.last .cont .cont1 p{
+    color: #888;
+    font-family: tahoma;
+    line-height: 2;
+}
+.last .cont .cont1 button{
+margin-top: 50px;
+padding: 30px;
+border-radius: 50px;
+border:0;
+font-size: 15px;
+font-weight: bold;
+text-transform: uppercase;
+cursor: pointer;
+background-color: whitesmoke;
+outline: 0;
+}
+.last .cont .cont1 button:hover{
+    background-color: #777;
+    color: white;
+
+}
+.last .cont .cont2{
+    width: 40%;
+    float: left;
+}
+form input{
+    width: 45.5%;
+    height: 30px;
+    margin: 10px 0;
+    border: 0;
+}
+form textarea{
+    width: 92.5%;
+    height: 150px;
+    border: 0;
+}
+.last .cont .cont2{
+    padding-left: 7% ;
+}
+.last .cont .cont2 i{
+    padding-right: 10px;
+   color: green;
+   
+}
+.last .cont .cont2 ul li{
+    list-style: none;
+    margin: 30px 0;
+}
+.last .cont .cont2 ul li a,p{
+    text-decoration: none;
+    color: #777;
+}
+.last .cont .cont1 p{
+    width: 80%;
+}
+.footer{
+    margin-top: 0;
+    text-align: center;
+    color: #777;
+    height: 200px;
+    background-color: lightgoldenrodyellow;
+    line-height: 200px;
+    overflow: hidden;
+}
+::placeholder{
+    padding-left: 5px;
+}
+
+
